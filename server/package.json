@@ -1,0 +1,17 @@
+{
+  "name": "apicitywather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "express": "^4.17.1",
+    "node-geocoder": "^3.27.0",
+    "node-open-geocoder": "^4.0.1",
+    "nodemon": "^2.0.9",
+    "puppeteer": "^10.1.0"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}
